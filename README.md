@@ -1,4 +1,4 @@
-# rasa-framework-test
+# Rasa Framework
 
 # Setup and installation
 If you haven’t installed Rasa NLU and Rasa Core yet, you can do it by navigating to the project directory and running:
