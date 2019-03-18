@@ -2,10 +2,9 @@
 
 # Setup and installation
 If you haven’t installed Rasa NLU and Rasa Core yet, you can do it by navigating to the project directory and running:
-
 pip install -r requirements.txt
-You also need to install a spaCy English language model. You can install it by running:
 
+You also need to install a spaCy English language model. You can install it by running:
 python -m spacy download en
 
 # How to use this starter-pack?
