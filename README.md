@@ -1,6 +1,6 @@
 # rasa-framework-test
 
-Setup and installation
+# Setup and installation
 If you haven’t installed Rasa NLU and Rasa Core yet, you can do it by navigating to the project directory and running:
 
 pip install -r requirements.txt
@@ -8,7 +8,7 @@ You also need to install a spaCy English language model. You can install it by r
 
 python -m spacy download en
 
-How to use this starter-pack?
+# How to use this starter-pack?
 NOTE: If running on Windows, you will either have to install make or copy the following commands from the Makefile
 You can train the Rasa NLU model by running:
 make train-nlu
