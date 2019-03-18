@@ -1,0 +1,61 @@
+intents:
+- saludo
+- adios
+- gracias
+- afirmar
+- nombre
+- saludobro
+- adiosbro
+- graciasbro
+- afirmarbro
+
+
+entities:
+- nombre
+
+
+slots:
+  name:
+    type: text
+
+
+actions:
+- utter_nombre
+- utter_gracias
+- utter_saludo
+- utter_adios
+- utter_afirmar
+- utter_graciasbro
+- utter_saludobro
+- utter_adiosbro
+- utter_afirmarbro
+
+
+templates:
+  utter_nombre:
+  - text: "Que pasa ahi? Dime tu nombre bro "
+
+  utter_saludo:
+  - text: "Encantado {name}. Que puedo hacer por ti? "
+
+  utter_adios:
+  - text: "Hasta otra! :) "
+  
+  utter_thanks:
+  - text: "El placer es mio "
+
+  utter_afirmar:
+  - text: "Claro "
+
+  utter_adiosbro:
+  - text: "Nos vemos bro "
+  
+  utter_thanksbro:
+  - text: "A ti cabesa "
+
+  utter_afirmarbro:
+  - text: "Aro io, ji o que "
+
+  utter_saludobro:
+  - text: "Que ase {name}. No me marees mucho, que quieres "
+  
