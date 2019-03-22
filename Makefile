@@ -34,4 +34,4 @@ cmdline:
 	python -m rasa_core.run -d models/current/dialogue -u models/current/nlu --endpoints endpoints.yml --enable_api --cors "*"
 	
 action-server:
-	python -m rasa_core_sdk.endpoint --cors "*"
+	python -m rasa_core_sdk.endpoint --actions actions --cors "*"

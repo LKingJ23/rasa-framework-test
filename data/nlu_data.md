@@ -69,7 +69,7 @@
 - llamame [Rocio](name)
 - me dicen [David](name)
 - me llaman [Maria](name)
-- [juan](name)
+- [migue](name)
 - puedes llamarme [Antonio](name)
 - por favor llamame [Manuel](name)
 
@@ -107,3 +107,26 @@
 - Thanks
 - Gracias bro
 - gracias bro
+
+## intent:action_answerbd
+- Puedes decirme la respuesta [1](action_answerbd)?
+- Dime la respuesta [2](action_answerbd)
+- Dame la respuesta [5](action_answerbd)
+- Respondeme la [7](action_answerbd)
+- Sabes responderme la [8](action_answerbd)?
+- Respuesta de la [6](action_answerbd)
+- dime la respuesta de la id [3](action_answerbd)
+
+## intent:action_hncbd
+- Puedes decirme la incidencia [ES-123456](action_hncbd)?
+- Dime la incidencia [ES-369258](action_hncbd)
+- Dame la incidencia [ES-999999](action_hncbd)
+- Buscame la incidencia [FR-111111](action_hncbd)
+- Dime la hnc [FR-258147](action_hncbd)?
+- Incidencia [FR-111999](action_hncbd)
+- dime la incidencia de la hnc [ES-555555](action_hncbd)
+
+## intent:siguiente_operacion
+- Cual es la siguiente operacion?
+- Dime la siguiente operacion
+- Con que operacion sigo?

@@ -8,14 +8,23 @@ intents:
 - adiosbro
 - graciasbro
 - afirmarbro
+- action_answerbd
+- action_hncbd
+- siguiente_operacion
 
 
 entities:
 - nombre
+- action_answerbd
+- action_hncbd
 
 
 slots:
   name:
+    type: text
+  action_answerbd:
+    type: text
+  action_hncbd:
     type: text
 
 
@@ -29,6 +38,9 @@ actions:
 - utter_saludobro
 - utter_adiosbro
 - utter_afirmarbro
+- action_answerbd
+- action_hncbd
+- utter_siguiente_operacion
 
 
 templates:
@@ -58,4 +70,6 @@ templates:
 
   utter_saludobro:
   - text: "Que ase {name}. No me marees mucho, que quieres "
-  
+
+  utter_siguiente_operacion:
+  - text: "Sigue la operacion 2"

@@ -14,6 +14,16 @@
 * nombre{"name":"Sam"}
  - utter_saludo
 
+## story_action_answerbd
+* action_answerbd{"action_answerbd": "primera respuesta"}
+ - action_answerbd
+ - slot{"action_answerbd": "primera respuesta"}
+
+## story_action_hncbd
+* action_hncbd{"action_hncbd": "Esta es la incidencia ES-123456"}
+ - action_hncbd
+ - slot{"action_hncbd": "Esta es la incidencia ES-123456"}
+
 ## story_afirmar
 * afirmar
  - utter_afirmar
@@ -33,3 +43,7 @@
 ## story_afirmarbro
 * afirmarbro
  - utter_afirmarbro
+
+## story_siguiente_operacion
+* siguiente_operacion
+ - utter_siguiente_operacion
