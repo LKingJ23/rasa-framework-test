@@ -8,7 +8,9 @@
 * python -m spacy download en
 
 ## How to use this starter-pack?
-**NOTE: If running on Windows, you will either have to install make or copy the following commands from the Makefile**
+
+>NOTE: If running on Windows, you will either have to install make or copy the following commands from the Makefile
+
 #### You can train the Rasa NLU model by running:
 * make train-nlu
 **This will train the Rasa NLU model and store it inside the /models/current/nlu folder of your project directory.**
