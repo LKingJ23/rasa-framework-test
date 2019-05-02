@@ -11,12 +11,18 @@ intents:
 - action_answerbd
 - action_hncbd
 - siguiente_operacion
+- action_incidencia
+- hora
+- dia
 
 
 entities:
-- nombre
+- name
 - action_answerbd
 - action_hncbd
+- tipo_incidencia
+- action_incidencia
+- cod_action
 
 
 slots:
@@ -25,6 +31,10 @@ slots:
   action_answerbd:
     type: text
   action_hncbd:
+    type: text
+  action_incidencia:
+    type: text
+  cod_action:
     type: text
 
 
@@ -41,6 +51,9 @@ actions:
 - action_answerbd
 - action_hncbd
 - utter_siguiente_operacion
+- action_incidencia
+- action_hora
+- action_dia
 
 
 templates:
